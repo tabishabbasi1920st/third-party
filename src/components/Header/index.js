@@ -47,8 +47,12 @@ const Header = () => {
             {close => (
               <PopupModal>
                 <CloseIconContainer>
-                  <button type="button" data-testid="closeButton">
-                    <CloseIcon onClick={close} />
+                  <button
+                    type="button"
+                    data-testid="closeButton"
+                    onClick={close}
+                  >
+                    <CloseIcon />
                   </button>
                 </CloseIconContainer>
                 <MenuOptionsContainer>
